@@ -1,11 +1,25 @@
-import { ButtonDefault } from './styles.js'
+import React from 'react';
+import { ButtonDiv, StyledButton, ButtonIcon } from './styles';
+import { IconTrash, IconPencil } from '@tabler/icons-react';
 
-function Button(){
-    return (
-        <div>
-            <ButtonDefault>Novo Card</ButtonDefault>
-        </div>
-    )
-}
 
-export default Button
+const Button = ({type, onClick, children }) => {
+  return (
+    <StyledButton type={type}  onClick={onClick}>
+      <ButtonDiv>
+        <ButtonIcon type={type}>
+          {type === 'delete' && <IconTrash stroke={2} />}
+          {type === 'edit' && <IconPencil stroke={2} />}
+        </ButtonIcon>
+          
+      </ButtonDiv>
+      
+      <ButtonDiv>
+          {children}
+      </ButtonDiv>
+      
+    </StyledButton>
+  );
+};
+
+export default Button;
