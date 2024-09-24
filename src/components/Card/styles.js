@@ -48,7 +48,6 @@ export const CardTitle = styled.text`
 export const CardActions = styled.div`
   display: flex;
   justify-content: center;
-  gap: 10px;
   height: 43px; 
   width: 100%; 
 `;
