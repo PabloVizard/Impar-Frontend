@@ -7,7 +7,6 @@ export const HeaderContent = styled.div`
 `
 
 export const HeaderWrapper = styled.header`
-  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -24,7 +23,7 @@ export const HeaderWrapper = styled.header`
 export const SearchWrapper = styled.div`
   top: 70px;
   position: relative;
-  width: 70%;
+  width: 54%;
   
 `;
 
@@ -54,7 +53,7 @@ export const Logo = styled.img`
 `;
 
 export const HeaderDiv = styled.div`
-top: 50px;
+  top: 50px;
   width: 100%;
   min-height: 300px; /* Mínimo de 300px */
   background-image: url(${fundoBusca});
