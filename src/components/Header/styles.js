@@ -31,7 +31,7 @@ export const SearchWrapper = styled.div`
 export const SearchInput = styled.input`
   width: 100%;
   padding: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ddd;
   font-size: 24px;
   height: 75px;
