@@ -55,7 +55,7 @@ export const Logo = styled.img`
 export const HeaderDiv = styled.div`
   top: 50px;
   width: 100%;
-  min-height: 300px; /* Mínimo de 300px */
+  min-height: 300px;
   background-image: url(${fundoBusca});
   background-repeat: no-repeat;
   background-position: center center;
@@ -63,5 +63,5 @@ export const HeaderDiv = styled.div`
   display: flex;
   justify-content: center; 
   align-items: center;
-  flex-direction: column; /* Para empilhar os itens verticalmente */
+  flex-direction: column;
 `;

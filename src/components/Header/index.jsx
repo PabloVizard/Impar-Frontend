@@ -15,7 +15,7 @@ const Header = ({ onSearch }) => {
             placeholder="Digite aqui sua busca..."
             onChange={onSearch}
           />
-          <SearchIcon stroke={2} /> {/* Ícone de busca dentro do input */}
+          <SearchIcon stroke={2} />
         </SearchWrapper>
       </HeaderDiv>
     </HeaderContent>
