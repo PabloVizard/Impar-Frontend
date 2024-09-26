@@ -74,6 +74,7 @@ export const ConfirmationTextDiv = styled.div`
     p {
         font-size: 12px;
         color: #454545;
+        font-weight: bold;
     }`
 
 export const LineConfirmDiv = styled.div`

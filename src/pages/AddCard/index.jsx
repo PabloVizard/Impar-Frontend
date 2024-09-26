@@ -113,7 +113,7 @@ const ModalCard = ({ isOpen, onClose, cardToEdit }) => {
 
         {error && <div style={{ color: 'red' }}>{error}</div>}
 
-        <div style={{ fontSize: '14px', paddingTop: '25px' }}>DIGITE UM NOME PARA O CARD *</div>
+        <div style={{ fontSize: '14px', paddingTop: '25px', fontWeight: 'bold'  }}>DIGITE UM NOME PARA O CARD *</div>
         <input
           type="text"
           placeholder="Digite o título"
@@ -122,7 +122,7 @@ const ModalCard = ({ isOpen, onClose, cardToEdit }) => {
           onChange={(e) => setCardTitle(e.target.value)}
         />
 
-        <div style={{ fontSize: '14px', paddingTop: '50px' }}>SELECIONE UM STATUS PARA O CARD *</div>
+        <div style={{ fontSize: '14px', paddingTop: '50px', fontWeight: 'bold' }}>SELECIONE UM STATUS PARA O CARD *</div>
         <select
           value={status}
           onChange={(e) => setStatus(e.target.value)}
@@ -143,7 +143,7 @@ const ModalCard = ({ isOpen, onClose, cardToEdit }) => {
           <option value="4">Cancelado</option>
         </select>
 
-        <div style={{ fontSize: '14px', paddingTop: '50px' }}>INCLUA UMA IMAGEM PARA APARECER NO CARD *</div>
+        <div style={{ fontSize: '14px', paddingTop: '50px', fontWeight: 'bold'  }}>INCLUA UMA IMAGEM PARA APARECER NO CARD *</div>
         <FileInputWrapper>
           <SpanFileName>{fileName}</SpanFileName>
           <FileButton htmlFor="file-upload">Escolher Arquivo</FileButton>
